@@ -1,0 +1,82 @@
+clear all
+
+load aom.mat
+s=size(pinggugu)
+s=s(1:1,end-1);
+for i=1:s
+    for j=1:s
+        if pinggugu(i,j)==-500
+            pinggugu(i,j)=-100000000;
+        end
+    end
+end
+
+save newaom.mat pinggugu
+
+clear all
+
+load edonkey.mat
+s=size(pinggugu)
+s=s(1:1,end-1);
+for i=1:s
+    for j=1:s
+        if pinggugu(i,j)==-500
+            pinggugu(i,j)=-100000000;
+        end
+    end
+end
+
+save newedonkey.mat pinggugu
+
+
+clear all
+
+load http.mat
+s=size(pinggugu)
+s=s(1:1,end-1);
+for i=1:s
+    for j=1:s
+        if pinggugu(i,j)==-500
+            pinggugu(i,j)=-100000000;
+        end
+    end
+end
+
+save newhttp.mat pinggugu
+
+
+
+clear all
+
+load msn.mat
+s=size(pinggugu)
+s=s(1:1,end-1);
+for i=1:s
+    for j=1:s
+        if pinggugu(i,j)==-500
+            pinggugu(i,j)=-100000000;
+        end
+    end
+end
+
+save newmsn.mat pinggugu
+
+
+clear all
+
+load pplive.mat
+s=size(pinggugu)
+s=s(1:1,end-1);
+for i=1:s
+    for j=1:s
+        if pinggugu(i,j)==-500
+            pinggugu(i,j)=-100000000;
+        end
+    end
+end
+
+save newpplive.mat pinggugu
+
+
+
+
